@@ -14,10 +14,10 @@ from wagalytics import __version__
 
 
 testing_extras = [
-    'pytest==5.3.1',
-    'pytest-django==3.7.0',
-    'wagtail-factories==2.0.0',
-    'factory-boy==2.11.0',
+    'pytest>=5.3.1',
+    'pytest-django>=3.7.0',
+    'wagtail-factories>=2.0.0',
+    'factory-boy>=2.11.0',
 ]
 
 setup(
@@ -43,10 +43,10 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        "wagtail>=2.0",
-        "Django>=2.0.13",
+        "wagtail>=5.0",
+        "Django>=4.2",
         "oauth2client",
-        "wagtailfontawesome>=1.1.2",
+        "wagtailfontawesome @ git+https://github.com/Luk5553/wagtailfontawesome.git#egg=wagtailfontawesome",
         "pyexcel-ods==0.5.3"
     ],
     cmdclass=cmdclass,

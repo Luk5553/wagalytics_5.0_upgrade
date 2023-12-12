@@ -5,7 +5,7 @@ from django.test import TestCase
 from django.urls import reverse
 
 from wagtail.tests.utils import WagtailTestUtils
-from wagtail.core.models import Site
+from wagtail.models import Site
 import wagtail_factories
 
 pytestmark = pytest.mark.django_db

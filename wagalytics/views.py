@@ -12,7 +12,7 @@ from collections import OrderedDict
 from pyexcel_ods import save_data
 
 from wagtail.contrib.settings.forms import SiteSwitchForm as SettingsSiteSwitchForm
-from wagtail.core.models import Site
+from wagtail.models import Site
 
 
 class SiteSwitchForm(SettingsSiteSwitchForm):
